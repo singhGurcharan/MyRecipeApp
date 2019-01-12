@@ -30,3 +30,41 @@
     transform: rotate(360deg);
   }
 }
+a{
+  color: #e74c3c !important;
+}
+
+img{
+  width: 100%;
+  height:200px;
+}
+.recipebox {
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: -1px 2px 34px -13px rgba(0,0,0,0.75);
+  text-align: left;
+  overflow: hidden;
+}
+.activerecipe{
+  margin:0 auto;
+  width:50%;
+  background-color:whitesmoke;
+}
+.activerecipe p a{
+   color:black;
+}
+button{
+  border-radius: 5px;
+  box-shadow: -1px 2px 34px -13px rgba(0,0,0,0.75);
+}
+
+.activerecipe_img{
+  box-shadow: -1px 2px 34px -13px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.activerecipe_title{
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
