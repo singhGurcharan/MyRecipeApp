@@ -7,7 +7,7 @@ const Recipes =props=>(
    
     <div className="container">
     <div className="row">
-    { props.recipes!==undefined && props.recipes.map( recipe =>{
+    { props.recipes!==null && props.recipes.map( recipe =>{
          return(
             <div className="col-md-4" key={recipe.title} style={{marginBottom:"2rem"}} >
                 <div className="recipebox" >
